@@ -8,7 +8,7 @@ const CommonContent = ({ id, Subject, Content }) => {
     return (
         < >
             <h1 >{id}</h1>
-            <h4>{Subject}</h4>
+            <h4 style={{ color: 'blue' }}>{Subject}</h4>
             <p>
                 {Content}
             </p>
